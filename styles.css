@@ -1,6 +1,7 @@
 /* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
-
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
@@ -10,3 +11,88 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+h1{
+  color: #2B4E80;
+  padding-left: 20%;
+  font-family: 'Life Savers';
+  font-style: normal;
+  font-weight: 800;
+
+  }
+
+#h1{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#ask-your-question{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+#get-your-answer-button{
+  color: white;
+  background-color: #2B4E80;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+#eight-ball-img{
+  width: 23%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#form-box{
+  background-color: #E6ECF4;
+  flex-direction: column;
+  height: auto;
+  width: 66%;
+  margin-left: 50px;
+  margin-right: auto;
+  display: block;
+}
+
+#container1{
+  width: 70%;
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+}
+.woody-img{
+  width: 100%;
+  height:auto;
+}
+
+#woody-img{
+  flex-direction: column;
+  margin-left: auto;
+  height: 77%;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#clear-button{
+  position:relative;
+  width: 14%;
+  height: 10%;
+  left: 105px;
+  top: 5px;
+  background-color: #D0CDCD;
+  color: white;
+
+}

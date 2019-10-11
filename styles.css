@@ -94,5 +94,18 @@ input::placeholder {
   top: 5px;
   background-color: #D0CDCD;
   color: white;
+}
 
+#clear-button2{
+  position:relative;
+  width: 14%;
+  height: 10%;
+  left: 105px;
+  top: 285px;
+  background-color: red;
+  color: white;
+}
+
+.hidden {
+  display: none;
 }
